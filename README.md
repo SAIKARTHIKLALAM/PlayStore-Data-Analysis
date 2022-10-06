@@ -1,4 +1,6 @@
 # PlayStore-data-analysis
-Analysing data of 10840 PlayStore apps
-In this project work we have been given a dataset of Play store applications information and dataset of user reviews on applications.
+In this project work we have analysed 2 datasets. A dataset of Play store applications information and a dataset of user reviews on applications.
 Play store dataset has more than ten thousand entries and thirteen columns. User review dataset has more than sixty four thousand entries with five columns. 
+Pre-process is to import relevant python packages and libraries and uploaded the datasets in our coding environment, made data frames with them. Then we tried to get some important information like shape, column names, null value existence, overall description and information using different methods.
+To get null value free datasets, we started data manipulation by filling up null value position with required values and converting the object type data type into proper formats like integer, float and datetime.
+Then followed by the main analysis i.e Visua;isation which is used for better understanding of datasets through some different kinds of plotting. In this part we used different plots to get relational information among the columns, like Apps Vs Sentiments, Sentiment subjectivity and Sentiment polarity, Category wise  application count, correlation among the features, category Vs price etc.
